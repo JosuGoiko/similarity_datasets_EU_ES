@@ -6,11 +6,11 @@ Dataset Creation
 
 The creation of this dataset involved three key steps:
 
-    Computation of Psycholinguistic Features: Four important psycholinguistic features were computed for each noun in the dataset. These features include concreteness, frequency, semantic neighborhood density, and phonological neighborhood density.
+- Computation of Psycholinguistic Features: Four important psycholinguistic features were computed for each noun in the dataset. These features include concreteness, frequency, semantic neighborhood density, and phonological neighborhood density.
 
-    Pairing Nouns: Nouns were paired based on the aforementioned psycholinguistic features. This process ensured a controlled variation of variables, providing diverse noun pairs for analysis.
+- Pairing Nouns: Nouns were paired based on the aforementioned psycholinguistic features. This process ensured a controlled variation of variables, providing diverse noun pairs for analysis.
 
-    Word Similarity Measurements: For each noun pair, three types of word similarity measurements were assigned. These measurements were computed using text-based methods, WordNet, and hybrid embeddings.
+- Word Similarity Measurements: For each noun pair, three types of word similarity measurements were assigned. These measurements were computed using text-based methods, WordNet, and hybrid embeddings.
 
 # Dataset Contents
 
@@ -22,19 +22,21 @@ Usage
 
 Researchers and developers can utilize this dataset for various purposes, such as:
 
-    Analyzing psycholinguistic features and their impact on word similarity
-    Developing and evaluating algorithms for semantic analysis
-    Comparing different word similarity measurement techniques
-    Investigating cross-linguistic variations in word similarity
+- Analyzing psycholinguistic features and their impact on word similarity
+- Developing and evaluating algorithms for semantic analysis
+- Comparing different word similarity measurement techniques
+- Investigating cross-linguistic variations in word similarity
 
 # Publications
 
 If you use these datasets please cite the following paper:
 
+```
 @article{goikoetxea2023bridging,
-  title={Bridging Natural Language Processing and Psycholinguistics: computationally grounded semantic similarity datasets for      Basque and Spanish},
-  author={Goikoetxea, J and Arantzeta, M and San Martin, I},
-  journal={arXiv e-prints},
-  pages={arXiv--2304},
-  year={2023}
+    title={Bridging Natural Language Processing and Psycholinguistics: computationally grounded semantic similarity datasets for Basque and Spanish},
+    author={Goikoetxea, J and Arantzeta, M and San Martin, I},
+    journal={arXiv e-prints},
+    pages={arXiv--2304},
+    year={2023}
 }
+```

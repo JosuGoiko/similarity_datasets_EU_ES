@@ -18,7 +18,8 @@ The dataset included in this repository provides noun pairs' information in Basq
 Future Work
 
 While the current dataset focuses on Basque and European Spanish, future work aims to expand its coverage to include additional languages. This extension will broaden the scope of research possibilities and enhance cross-linguistic analysis of word similarity.
-Usage
+
+# Usage
 
 Researchers and developers can utilize this dataset for various purposes, such as:
 
